@@ -23,5 +23,5 @@ def faire_deviner():
 		elif avis == "plus grand":
 			a = c
 			c = int((a+b)/2)
-		avis = input(str(c)+"?\n")
+		avis = input(str(c)+"?\n(\"trouvé\", \"plus petit\" ou \"plus grand\"")
 	print("bravo")
